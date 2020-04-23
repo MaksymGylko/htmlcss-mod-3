@@ -1,79 +1,76 @@
-nav {
-    widows: 1200px;
-    height: 180px;
-}
-
-nav a {
-    display: inline-block;
-    text-align: center;
+body, p, button {
     color: #626262;
     font-family: 'Playfair Display', serif;
-    font-size: 14px;
+    font-style: 14px;
     line-height: 24px;
-    width: 112px;
-    margin-top: 77px;
-    margin-right: 87px;
-    margin-bottom: 0px;
+    font-weight: 400px;
 }
 
-nav :hover {
-    color: #0099ff;
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
 }
-nav :last-child{
-    margin-right: 0px;
-}
-nav :first-child{
-    margin-left: 292px;
-}
-
-main {
-    width: 1200px;
-    height: 2079px;
-    padding-left: 150px;
-    padding-bottom: 78px;
-    box-sizing: content-box;
-}
-
-section {
-    display: inline-block;
-    height: 480px;
-    width: 430px;
-    margin-right: 60px;
-    margin-bottom: 130px;
-    vertical-align: top;
-}
-
-article{
-    display: inline-block;
-}   
-
-h3{
-    text-align: left;
-    font-size: 30px;
-    font-family: 'Playfair Display', serif;
-    color: #626262;
-}
-
-p {
-    text-align: justify;  
-    margin-top: 14px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #b4ad9e;
-}
-
-.Text{
-    display: inline-block;
-    text-align: justify;
-    color: #626262;
-    font-family: 'Playfair Display', serif;
-    font-size: 14px;
-}
-button {
-    width: 170px;
-    height: 60px;
-    margin-left: 350px;
-    display: block;
+.navigation ul{
     text-align: center;
-    font-family: 'Playfair Display', serif;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-top: 77px; 
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+nav li a {
+    text-transform: uppercase;
+}
+.navigation li:last-child {
+    margin-right: 0;
+}
+nav li a:hover {
+    color: #03a9f4;
+}
+
+.post-wrap {
+    font-size: 0;
+}
+
+.post {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+    font-size: 14px;
+    margin-bottom: 130px;
+}
+
+.post:nth-child(even) {
+    margin-right: 0;
+}
+
+.post:nth-child(-n+2) {
+    margin-bottom: 55px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.post .category {
+    font-family: 'Ubuntu', sans-serif 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-bottom: 27px;
+}
+.post h3 {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.rd-more {
+    display: block;
+    margin: 0 auto;
     font-size: 20px;
+    border: 1px solid;
+    padding: 20px 35px;
+    margin-bottom: 71px;
 }
