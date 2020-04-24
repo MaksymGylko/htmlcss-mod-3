@@ -1,9 +1,9 @@
 body, p, button {
     color: #626262;
     font-family: 'Playfair Display', serif;
-    font-style: 14px;
+    font-size: 14px;
     line-height: 24px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .wrapper {
@@ -61,7 +61,8 @@ nav li a:hover {
 }
 
 .category {
-    font-family: 'Ubuntu', sans-serif 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
     text-transform: uppercase;
     color: #b4ad9e;
     margin-bottom: 27px;
